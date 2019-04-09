@@ -18,12 +18,10 @@ class WinnersTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! WorldCupTableViewCell
         
         let worldCup = worldCups[indexPath.row]
-        cell.textLabel?.text = "\(worldCup.country) - \(worldCup.year)"
-        cell.detailTextLabel?.text = "Vencedor: \(worldCup.winner)"
-        
+        cell.prepare(with: worldCup)
         return cell
     }
 

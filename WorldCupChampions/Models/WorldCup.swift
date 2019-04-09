@@ -7,6 +7,7 @@ struct WorldCup: Codable{
     var winner: String
     let vice: String
     let winnerScore: String
+    let viceScore: String
     let matches: [Match]
 }
 

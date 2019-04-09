@@ -64,9 +64,9 @@
 		5C6F91F0225C1A390034B023 /* Ucrânia.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F91BF225C1A390034B023 /* Ucrânia.png */; };
 		5C6F91F2225C1A650034B023 /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F91F1225C1A640034B023 /* winners.json */; };
 		5C6F91F7225C1BFF0034B023 /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F91F6225C1BFF0034B023 /* WinnersTableViewController.swift */; };
-		5C6F91F9225C1C580034B023 /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F91F8225C1C580034B023 /* WorldCupViewController.swift */; };
 		5C6F91FB225C1CBB0034B023 /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F91FA225C1CBB0034B023 /* WorldCup.swift */; };
 		5C6F91FD225C2B710034B023 /* WorldCupsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F91FC225C2B710034B023 /* WorldCupsManager.swift */; };
+		5CD9B3BE225D303200304B56 /* WorldCupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD9B3BD225D303200304B56 /* WorldCupTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,9 +150,9 @@
 		5C6F91BF225C1A390034B023 /* Ucrânia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ucrânia.png"; sourceTree = "<group>"; };
 		5C6F91F1225C1A640034B023 /* winners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = winners.json; sourceTree = "<group>"; };
 		5C6F91F6225C1BFF0034B023 /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
-		5C6F91F8225C1C580034B023 /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
 		5C6F91FA225C1CBB0034B023 /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
 		5C6F91FC225C2B710034B023 /* WorldCupsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupsManager.swift; sourceTree = "<group>"; };
+		5CD9B3BD225D303200304B56 /* WorldCupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorldCupTableViewCell.swift; path = ../../WorldCupTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,7 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				5C6F91F6225C1BFF0034B023 /* WinnersTableViewController.swift */,
-				5C6F91F8225C1C580034B023 /* WorldCupViewController.swift */,
+				5CD9B3BD225D303200304B56 /* WorldCupTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -500,8 +500,8 @@
 				5C6F91F7225C1BFF0034B023 /* WinnersTableViewController.swift in Sources */,
 				5C6F91FB225C1CBB0034B023 /* WorldCup.swift in Sources */,
 				5C6F9161225C18C90034B023 /* AppDelegate.swift in Sources */,
+				5CD9B3BE225D303200304B56 /* WorldCupTableViewCell.swift in Sources */,
 				5C6F91FD225C2B710034B023 /* WorldCupsManager.swift in Sources */,
-				5C6F91F9225C1C580034B023 /* WorldCupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
