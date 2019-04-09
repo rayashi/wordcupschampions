@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C6F9161225C18C90034B023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F9160225C18C90034B023 /* AppDelegate.swift */; };
+		5C6F9163225C18C90034B023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F9162225C18C90034B023 /* ViewController.swift */; };
+		5C6F9166225C18C90034B023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F9164225C18C90034B023 /* Main.storyboard */; };
+		5C6F9168225C18CA0034B023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F9167225C18CA0034B023 /* Assets.xcassets */; };
+		5C6F916B225C18CA0034B023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F9169225C18CA0034B023 /* LaunchScreen.storyboard */; };
+		5C6F9176225C18CA0034B023 /* WorldCupChampionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F9175225C18CA0034B023 /* WorldCupChampionsTests.swift */; };
+		5C6F9181225C18CA0034B023 /* WorldCupChampionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F9180225C18CA0034B023 /* WorldCupChampionsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C6F9172225C18CA0034B023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6F9155225C18C90034B023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C6F915C225C18C90034B023;
+			remoteInfo = WorldCupChampions;
+		};
+		5C6F917D225C18CA0034B023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6F9155225C18C90034B023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C6F915C225C18C90034B023;
+			remoteInfo = WorldCupChampions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C6F915D225C18C90034B023 /* WorldCupChampions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldCupChampions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6F9160225C18C90034B023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C6F9162225C18C90034B023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C6F9165225C18C90034B023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C6F9167225C18CA0034B023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C6F916A225C18CA0034B023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C6F916C225C18CA0034B023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6F9171225C18CA0034B023 /* WorldCupChampionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldCupChampionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6F9175225C18CA0034B023 /* WorldCupChampionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupChampionsTests.swift; sourceTree = "<group>"; };
+		5C6F9177225C18CA0034B023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6F917C225C18CA0034B023 /* WorldCupChampionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldCupChampionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6F9180225C18CA0034B023 /* WorldCupChampionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupChampionsUITests.swift; sourceTree = "<group>"; };
+		5C6F9182225C18CA0034B023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C6F915A225C18C90034B023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6F916E225C18CA0034B023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6F9179225C18CA0034B023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C6F9154225C18C90034B023 = {
+			isa = PBXGroup;
+			children = (
+				5C6F915F225C18C90034B023 /* WorldCupChampions */,
+				5C6F9174225C18CA0034B023 /* WorldCupChampionsTests */,
+				5C6F917F225C18CA0034B023 /* WorldCupChampionsUITests */,
+				5C6F915E225C18C90034B023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C6F915E225C18C90034B023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F915D225C18C90034B023 /* WorldCupChampions.app */,
+				5C6F9171225C18CA0034B023 /* WorldCupChampionsTests.xctest */,
+				5C6F917C225C18CA0034B023 /* WorldCupChampionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C6F915F225C18C90034B023 /* WorldCupChampions */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F9160225C18C90034B023 /* AppDelegate.swift */,
+				5C6F9162225C18C90034B023 /* ViewController.swift */,
+				5C6F9164225C18C90034B023 /* Main.storyboard */,
+				5C6F9167225C18CA0034B023 /* Assets.xcassets */,
+				5C6F9169225C18CA0034B023 /* LaunchScreen.storyboard */,
+				5C6F916C225C18CA0034B023 /* Info.plist */,
+			);
+			path = WorldCupChampions;
+			sourceTree = "<group>";
+		};
+		5C6F9174225C18CA0034B023 /* WorldCupChampionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F9175225C18CA0034B023 /* WorldCupChampionsTests.swift */,
+				5C6F9177225C18CA0034B023 /* Info.plist */,
+			);
+			path = WorldCupChampionsTests;
+			sourceTree = "<group>";
+		};
+		5C6F917F225C18CA0034B023 /* WorldCupChampionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F9180225C18CA0034B023 /* WorldCupChampionsUITests.swift */,
+				5C6F9182225C18CA0034B023 /* Info.plist */,
+			);
+			path = WorldCupChampionsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C6F915C225C18C90034B023 /* WorldCupChampions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6F9185225C18CA0034B023 /* Build configuration list for PBXNativeTarget "WorldCupChampions" */;
+			buildPhases = (
+				5C6F9159225C18C90034B023 /* Sources */,
+				5C6F915A225C18C90034B023 /* Frameworks */,
+				5C6F915B225C18C90034B023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldCupChampions;
+			productName = WorldCupChampions;
+			productReference = 5C6F915D225C18C90034B023 /* WorldCupChampions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C6F9170225C18CA0034B023 /* WorldCupChampionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6F9188225C18CA0034B023 /* Build configuration list for PBXNativeTarget "WorldCupChampionsTests" */;
+			buildPhases = (
+				5C6F916D225C18CA0034B023 /* Sources */,
+				5C6F916E225C18CA0034B023 /* Frameworks */,
+				5C6F916F225C18CA0034B023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6F9173225C18CA0034B023 /* PBXTargetDependency */,
+			);
+			name = WorldCupChampionsTests;
+			productName = WorldCupChampionsTests;
+			productReference = 5C6F9171225C18CA0034B023 /* WorldCupChampionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C6F917B225C18CA0034B023 /* WorldCupChampionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6F918B225C18CA0034B023 /* Build configuration list for PBXNativeTarget "WorldCupChampionsUITests" */;
+			buildPhases = (
+				5C6F9178225C18CA0034B023 /* Sources */,
+				5C6F9179225C18CA0034B023 /* Frameworks */,
+				5C6F917A225C18CA0034B023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6F917E225C18CA0034B023 /* PBXTargetDependency */,
+			);
+			name = WorldCupChampionsUITests;
+			productName = WorldCupChampionsUITests;
+			productReference = 5C6F917C225C18CA0034B023 /* WorldCupChampionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C6F9155225C18C90034B023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Humberto Rayashi";
+				TargetAttributes = {
+					5C6F915C225C18C90034B023 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					5C6F9170225C18CA0034B023 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 5C6F915C225C18C90034B023;
+					};
+					5C6F917B225C18CA0034B023 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 5C6F915C225C18C90034B023;
+					};
+				};
+			};
+			buildConfigurationList = 5C6F9158225C18C90034B023 /* Build configuration list for PBXProject "WorldCupChampions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C6F9154225C18C90034B023;
+			productRefGroup = 5C6F915E225C18C90034B023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C6F915C225C18C90034B023 /* WorldCupChampions */,
+				5C6F9170225C18CA0034B023 /* WorldCupChampionsTests */,
+				5C6F917B225C18CA0034B023 /* WorldCupChampionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C6F915B225C18C90034B023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6F916B225C18CA0034B023 /* LaunchScreen.storyboard in Resources */,
+				5C6F9168225C18CA0034B023 /* Assets.xcassets in Resources */,
+				5C6F9166225C18C90034B023 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6F916F225C18CA0034B023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6F917A225C18CA0034B023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6F9159225C18C90034B023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6F9163225C18C90034B023 /* ViewController.swift in Sources */,
+				5C6F9161225C18C90034B023 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6F916D225C18CA0034B023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6F9176225C18CA0034B023 /* WorldCupChampionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6F9178225C18CA0034B023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6F9181225C18CA0034B023 /* WorldCupChampionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C6F9173225C18CA0034B023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C6F915C225C18C90034B023 /* WorldCupChampions */;
+			targetProxy = 5C6F9172225C18CA0034B023 /* PBXContainerItemProxy */;
+		};
+		5C6F917E225C18CA0034B023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C6F915C225C18C90034B023 /* WorldCupChampions */;
+			targetProxy = 5C6F917D225C18CA0034B023 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C6F9164225C18C90034B023 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6F9165225C18C90034B023 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C6F9169225C18CA0034B023 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6F916A225C18CA0034B023 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C6F9183225C18CA0034B023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C6F9184225C18CA0034B023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C6F9186225C18CA0034B023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GCV4WW74S;
+				INFOPLIST_FILE = WorldCupChampions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayashi.wordcupchampions.WorldCupChampions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C6F9187225C18CA0034B023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GCV4WW74S;
+				INFOPLIST_FILE = WorldCupChampions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayashi.wordcupchampions.WorldCupChampions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C6F9189225C18CA0034B023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GCV4WW74S;
+				INFOPLIST_FILE = WorldCupChampionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayashi.wordcupchampions.WorldCupChampionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldCupChampions.app/WorldCupChampions";
+			};
+			name = Debug;
+		};
+		5C6F918A225C18CA0034B023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GCV4WW74S;
+				INFOPLIST_FILE = WorldCupChampionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayashi.wordcupchampions.WorldCupChampionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldCupChampions.app/WorldCupChampions";
+			};
+			name = Release;
+		};
+		5C6F918C225C18CA0034B023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GCV4WW74S;
+				INFOPLIST_FILE = WorldCupChampionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayashi.wordcupchampions.WorldCupChampionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldCupChampions;
+			};
+			name = Debug;
+		};
+		5C6F918D225C18CA0034B023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GCV4WW74S;
+				INFOPLIST_FILE = WorldCupChampionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayashi.wordcupchampions.WorldCupChampionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldCupChampions;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6F9158225C18C90034B023 /* Build configuration list for PBXProject "WorldCupChampions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6F9183225C18CA0034B023 /* Debug */,
+				5C6F9184225C18CA0034B023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6F9185225C18CA0034B023 /* Build configuration list for PBXNativeTarget "WorldCupChampions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6F9186225C18CA0034B023 /* Debug */,
+				5C6F9187225C18CA0034B023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6F9188225C18CA0034B023 /* Build configuration list for PBXNativeTarget "WorldCupChampionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6F9189225C18CA0034B023 /* Debug */,
+				5C6F918A225C18CA0034B023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6F918B225C18CA0034B023 /* Build configuration list for PBXNativeTarget "WorldCupChampionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6F918C225C18CA0034B023 /* Debug */,
+				5C6F918D225C18CA0034B023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C6F9155225C18C90034B023 /* Project object */;
+}
