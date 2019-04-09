@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Campeões-->
         <scene sceneID="j6f-sT-Vfi">
             <objects>
                 <tableViewController id="8R0-C4-UzK" customClass="WinnersTableViewController" customModule="WorldCupChampions" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,7 +49,7 @@
                             <outlet property="delegate" destination="8R0-C4-UzK" id="lWG-U9-cLk"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="UVQ-la-eB3"/>
+                    <navigationItem key="navigationItem" title="Campeões" largeTitleDisplayMode="never" id="UVQ-la-eB3"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xdg-xs-8eY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
