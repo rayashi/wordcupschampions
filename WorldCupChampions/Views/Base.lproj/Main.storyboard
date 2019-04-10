@@ -221,6 +221,13 @@
                         <viewLayoutGuide key="safeArea" id="kTF-ws-EBP"/>
                     </view>
                     <navigationItem key="navigationItem" title="Copa do Mundo 2014" largeTitleDisplayMode="always" id="Mqv-xz-J09"/>
+                    <connections>
+                        <outlet property="ivAway" destination="SnA-No-p3o" id="a7r-fC-Ofd"/>
+                        <outlet property="ivHome" destination="hwy-nj-5se" id="XTA-9q-Gym"/>
+                        <outlet property="lbAway" destination="WLj-Q6-tcg" id="jqQ-7I-znK"/>
+                        <outlet property="lbHome" destination="eXF-nL-bTM" id="LN1-70-O2z"/>
+                        <outlet property="lbScore" destination="63h-Fb-de1" id="uxT-qU-Vt0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IpG-Hl-5QJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,7 +10,7 @@ class WinnersTableViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var wordCupViewController = segue.destination as! WordCupViewController
+        let wordCupViewController = segue.destination as! WordCupViewController
         let wordCup = worldCups[tableView.indexPathForSelectedRow!.row]
         wordCupViewController.worldCup = wordCup
     }
