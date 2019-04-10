@@ -6,10 +6,14 @@ class WinnersTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("number of world cups --------- \(worldCups.count)")
 
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var wordCupViewController = segue.destination as! WordCupViewController
+        let wordCup = worldCups[tableView.indexPathForSelectedRow!.row]
+        wordCupViewController.worldCup = wordCup
+    }
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

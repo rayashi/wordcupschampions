@@ -33,8 +33,8 @@ class WorldCupTableViewCell: UITableViewCell {
     func prepare(with worldCup: WorldCup) {
         lbYear.text = String(worldCup.year)
         lbCountry.text = worldCup.country
-        ivWinnerFlag.image = UIImage(imageLiteralResourceName: worldCup.winner)
-        ivViceFlag.image = UIImage(imageLiteralResourceName: worldCup.vice)
+        ivWinnerFlag.image = UIImage(named: worldCup.winner)
+        ivViceFlag.image = UIImage(named: worldCup.vice)
         lbWinner.text = worldCup.winner
         lbVice.text = worldCup.vice
         lbWinnerScore.text = worldCup.winnerScore
